@@ -1,6 +1,14 @@
-# ng_game_cube
+#Flutter GetX-Feature-First-Architecture-Core
 
-A new Flutter project.
+If you're not comfortable with the GetX architecture or the Clean Architecture of the GetX CLI, because they are layer first approch, then this is the right architecture for you. This is a feature first architecture, which means that you can create a feature and add layers inside it.
+
+## It Got
+ * GetX as the state management
+ * Dependency Injection with GetX
+ * Ready to use Theme
+ * Ready to use Localization
+ * Runtime attachemts of Tabs and Bottom Navigation Bar, AppBar Actions, Drawer Items, etc.
+ * Mason Bricks for easy component creation 
 
 ## Getting Started
 
