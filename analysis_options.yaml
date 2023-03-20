@@ -1,0 +1,54 @@
+include: package:flutter_lints/flutter.yaml
+linter:
+  rules:
+    - prefer_relative_imports
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - prefer_const_declarations
+    - avoid_redundant_argument_values
+    - always_declare_return_types
+    - annotate_overrides
+    - avoid_double_and_int_checks
+    - avoid_final_parameters
+    - avoid_null_checks_in_equality_operators
+    - avoid_return_types_on_setters
+    - avoid_returning_null_for_future
+    - avoid_shadowing_type_parameters
+    - avoid_returning_null_for_void
+    - avoid_void_async
+    - await_only_futures
+    - null_check_on_nullable_type_parameter
+    - overridden_fields
+    - one_member_abstracts
+    - prefer_const_constructors_in_immutables
+    - prefer_final_fields
+
+analyzer:
+  exclude:
+    - 'bricks/**'
+  errors:
+    avoid_print: warning
+    prefer_relative_imports: error
+    prefer_const_constructors: error
+    prefer_const_literals_to_create_immutables: error
+    prefer_const_declarations: error
+    avoid_redundant_argument_values: error
+    always_declare_return_types: error
+    annotate_overrides: error
+    avoid_double_and_int_checks: error
+    avoid_final_parameters: error
+    avoid_null_checks_in_equality_operators: error
+    avoid_return_types_on_setters: error
+    avoid_returning_null_for_future: error
+    avoid_shadowing_type_parameters: error
+    avoid_returning_null_for_void: error
+    avoid_void_async: error
+    await_only_futures: error
+    null_check_on_nullable_type_parameter: error
+    overridden_fields: error
+    one_member_abstracts: info
+    prefer_const_constructors_in_immutables: error
+    prefer_final_fields: error
+    final_and_var: error
+    variable_type_mismatch: error
+    var_and_type: error
